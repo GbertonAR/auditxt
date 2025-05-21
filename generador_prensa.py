@@ -4,10 +4,10 @@ from datetime import datetime
 
 # Configura tus variables de entorno
 #AZURE_OPENAI_KEY = os.getenv("AZURE_OPENAI_KEY", "EizxzeMgs69egX3XEWttQ744lzPuYD204ERsXn9dKYJmoSgUxoTdJQQJ99BEAC4f1cMXJ3w3AAABACOGDkfY")
-AZURE_OPENAI_KEY = os.getenv("AZURE_OPENAI_KEY", "9OvJ5fgalUlYClcgEuunGEypjZR7DAbZs49LTG2B8F1R5hh2y0toJQQJ99BEACHrzpqXJ3w3AAAAACOGPa9q")
+###AZURE_OPENAI_KEY = os.getenv("AZURE_OPENAI_KEY", "9OvJ5fgalUlYClcgEuunGEypjZR7DAbZs49LTG2B8F1R5hh2y0toJQQJ99BEACHrzpqXJ3w3AAAAACOGPa9q")
 #AZURE_OPENAI_ENDPOINT = os.getenv("AZURE_OPENAI_ENDPOINT", "https://freeplan.openai.azure.com/")
-AZURE_OPENAI_ENDPOINT = os.getenv("AZURE_OPENAI_ENDPOINT", "https://gbert-mave4hju-northcentralus.cognitiveservices.azure.com/")
-AZURE_DEPLOYMENT_NAME = os.getenv("AZURE_OPENAI_DEPLOYMENT", "gpt-4-ansv")  # Asegúrate de que exista en Azure
+###AZURE_OPENAI_ENDPOINT = os.getenv("AZURE_OPENAI_ENDPOINT", "https://gbert-mave4hju-northcentralus.cognitiveservices.azure.com/")
+###AZURE_DEPLOYMENT_NAME = os.getenv("AZURE_OPENAI_DEPLOYMENT", "gpt-4-ansv")  # Asegúrate de que exista en Azure
 
 # Cliente compatible con openai>=1.0.0
 client = AzureOpenAI(
