@@ -1,0 +1,17 @@
+{
+  "name": "redactor-prensa",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"vite\" \"nodemon server/index.js\""
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "concurrently": "^8.0.0",
+    "nodemon": "^3.0.0"
+  }
+}

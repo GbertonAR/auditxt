@@ -1,0 +1,76 @@
+.
+├── README.md
+├── ScriptFull.py
+├── ScriptFull1.py
+├── ScriptFull2.py
+├── ScriptFull3.py
+├── Test.py
+├── __pycache__
+│   ├── ScriptFull1.cpython-312.pyc
+│   ├── diagnostico_audio.cpython-312.pyc
+│   ├── formatear2.cpython-312.pyc
+│   └── main.cpython-312.pyc
+├── app
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-312.pyc
+│   │   ├── config.cpython-312.pyc
+│   │   ├── main.cpython-312.pyc
+│   │   └── routes.cpython-312.pyc
+│   ├── config.py
+│   ├── logic
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-312.pyc
+│   │   │   ├── downloader.cpython-312.pyc
+│   │   │   ├── formatter.cpython-312.pyc
+│   │   │   └── transcriber.cpython-312.pyc
+│   │   ├── downloader.py
+│   │   ├── formatter.py
+│   │   └── transcriber.py
+│   ├── main.py
+│   ├── routes.py
+│   └── src
+│       ├── App.jsx
+│       └── components
+│           └── RedactorPrensa.jsx
+├── app.py
+├── batchAzure.py
+├── comunicado_20250519_181742.txt
+├── comunicado_20250519_183155.txt
+├── comunicado_20250520_003212.txt
+├── desca.py
+├── desca1.py
+├── diagnostico_audio.py
+├── estructura.txt
+├── formatear.py
+├── formatear2.py
+├── generador_prensa.py
+├── main.py
+├── output_audio Viejo.mp3
+├── output_audio Viejo.wav
+├── output_audio.mp3
+├── output_audio.wav
+├── package-lock.json
+├── package.json
+├── redator-prensa
+│   ├── .env
+│   ├── backend
+│   │   └── utils
+│   ├── index.html
+│   ├── packege.json
+│   ├── server
+│   │   └── index.js
+│   └── src
+│       ├── app.tsx
+│       ├── components
+│       │   └── RedactorForm.tsx
+│       ├── lib
+│       │   └── openai.ts
+│       └── main.tsx
+├── requirements.txt
+├── transcripcion2_final.txt
+├── uploads
+└── ver.py
+
+16 directories, 58 files
